@@ -1,0 +1,42 @@
+<div class="container">
+        <h1 class="brand"><span>Email</span>sender</h1>
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info">
+                <h3>Email sender</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i> 44 something st</li>
+                    <li><i class="fa fa-phone"></i> (016) 99999-9999</li>
+                    <li><i class="fa fa-envelope"></i> test@codebit.com.br</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email us</h3>
+                {{msg}}
+                <form method="post" action="send">
+                    <p>
+                        <label>Nome</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company">
+                    </p>
+                    <p>
+                        <label>Endereço email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefone</label>
+                        <input type="text" name="phone">
+                    </p>
+                    <p>
+                        <label>Mensagem</label>
+                        <textarea name="message" rows="5"></textarea>
+                    </p>
+                    <p class="full">
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
